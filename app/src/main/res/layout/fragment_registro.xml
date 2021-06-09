@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tittle_register"
+                android:textSize="24dp"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:id="@+id/Email_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:hint="@string/tittle_email"
+                android:inputType="textPersonName"
+                android:background="@drawable/rounded_border"
+                android:padding="10dp"/>
+
+            <EditText
+                android:id="@+id/Password_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="40dp"
+                android:hint="@string/tittle_pasword"
+                android:inputType="textPassword"
+                android:background="@drawable/rounded_border"
+                android:padding="10dp"/>
+
+            <EditText
+                android:id="@+id/Nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:hint="@string/title_nombre"
+                android:inputType="textPersonName"
+                android:background="@drawable/rounded_border"
+                android:padding="10dp"/>
+
+            <EditText
+                android:id="@+id/pais"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:hint="@string/title_pais"
+                android:inputType="textPersonName"
+                android:background="@drawable/rounded_border"
+                android:padding="10dp"/>
+
+            <EditText
+                android:id="@+id/biography"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:hint="@string/title_biografia"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="40dp"
+                android:padding="10dp"
+                android:background="@drawable/rounded_border"
+                android:gravity="top"/>
+
+            <Button
+                android:id="@+id/buttonRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="40dp"
+                android:text="@string/button_register"
+                android:background="@drawable/button_rounded"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
